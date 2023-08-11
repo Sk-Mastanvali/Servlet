@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+	<!--servlet configuration ctrl+b -->
+	
+	<welcome-file-list>
+		<welcome-file>FormHome.html</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>Date</servlet-name>
+		<servlet-class>com.servlet.DateApp</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Generic</servlet-name>
+		<servlet-class>com.servlet.GenericTest</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>HTTP</servlet-name>
+		<servlet-class>com.servlet.HttpServ</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>RegForm</servlet-name>
+		<servlet-class>com.servlet.RegisterForm</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SuccessS</servlet-name>
+		<servlet-class>com.servlet.SuccessSer</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AttributeS1</servlet-name>
+		<servlet-class>com.servlet.AttributeS1</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AttributeS2</servlet-name>
+		<servlet-class>com.servlet.AttributeS2</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Cache1</servlet-name>
+		<servlet-class>com.servlet1.Cache1</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Cache2</servlet-name>
+		<servlet-class>com.servlet1.Cache2</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Url1</servlet-name>
+		<servlet-class>com.servlet1.UrlRewriting</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Url2</servlet-name>
+		<servlet-class>com.servlet1.UrlRewriting1</servlet-class>		
+	</servlet>
+	
+<!--servlet mapping configuration-->
+	<servlet-mapping>
+		<servlet-name>Date</servlet-name>
+		<url-pattern>/date</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Generic</servlet-name>
+		<url-pattern>/gene</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>HTTP</servlet-name>
+		<url-pattern>/http</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RegForm</servlet-name>
+		<url-pattern>/Register</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SuccessS</servlet-name>
+		<url-pattern>/success</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AttributeS1</servlet-name>
+		<url-pattern>/AttributeS1</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AttributeS2</servlet-name>
+		<url-pattern>/AttributeS2</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Cache1</servlet-name>
+		<url-pattern>/cache1</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Cache2</servlet-name>
+		<url-pattern>/cache2</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Url1</servlet-name>
+		<url-pattern>/url1</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Url2</servlet-name>
+		<url-pattern>/url2</url-pattern>		
+	</servlet-mapping>
+	
+	
+	
+</web-app>
