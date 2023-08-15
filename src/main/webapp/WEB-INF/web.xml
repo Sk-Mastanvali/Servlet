@@ -61,6 +61,21 @@
 		<servlet-class>com.servlet1.UrlRewriting1</servlet-class>		
 	</servlet>
 	
+	<servlet>
+		<servlet-name>InsertDetails</servlet-name>
+		<servlet-class>com.servlet1.InsertDetails</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>DeletDetails</servlet-name>
+		<servlet-class>com.servlet1.DeletDetails</servlet-class>		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>com.servlet1.UpdateDetails</servlet-class>		
+	</servlet>
+	
 <!--servlet mapping configuration-->
 	<servlet-mapping>
 		<servlet-name>Date</servlet-name>
@@ -115,6 +130,21 @@
 	<servlet-mapping>
 		<servlet-name>Url2</servlet-name>
 		<url-pattern>/url2</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>InsertDetails</servlet-name>
+		<url-pattern>/savedata</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>DeletDetails</servlet-name>
+		<url-pattern>/delete</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/update</url-pattern>		
 	</servlet-mapping>
 	
 	

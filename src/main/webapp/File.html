@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Data-Base form.</title>
+<style>
+	.body{
+	
+		border-style: double;
+		text-align: center;
+		margin-left: 28%;
+		margin-right:28%;
+	}
+	.body1{
+		border-style: dotted;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<div class="body">
+		<h3>To insert the Data.</h3>
+		<form action='savedata'>
+			<h3>
+				ID &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp: <input placeholder='auto genetated' readonly name='id' ><br><br>
+				Name  &nbsp&nbsp: <input type='text' name='name'><br><br>
+				Mail  &nbsp&nbsp&nbsp&nbsp: <input type='mail' name='mail'><br><br>
+				Number&nbsp: <input type='Number' name='num'><br><br>
+				State &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: <select name="country" style="width:150px">
+							<h2>  
+							<option>India</option>  
+							<option>USA</option>  
+							<option>UK</option>  
+							<option>Other</option>  
+						</h2></select><br><br>
+				<button type='submit' >Save the Details.</button>
+				
+			</h3>
+		</form>
+	</div>
+	<br><br>
+	
+	
+	<div class="body1">
+		<h3>To Update the Data.</h3>
+		<form action="update">
+			ID&nbsp&nbsp&nbsp: <input name='id'> &nbsp&nbsp
+			Mail&nbsp&nbsp: <input type='mail' name='mail'><br><br>
+			<button type='submit' >Update the Details.</button>
+		</form>
+	</div><br>
+	
+	
+	<div class="body">
+		<h3>To Read the Data.</h3>
+		<form action="read">
+			ID &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp: <input name='id'><br><br>
+			<button type='submit' >Read the Details.</button>
+		</form>
+	</div><br>
+	
+	
+	<div class="body">
+		<h3>To Delete the Data.</h3>
+		<form action="delete">
+			ID &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp: <input name='id'><br><br>
+			<button type='submit' >Delete the Details.</button>
+		</form>
+	</div>
+</body>
+</html>
