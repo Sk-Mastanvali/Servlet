@@ -1,0 +1,46 @@
+SERVLETS
+=========
+>Maven Structure
+>Adding server in eclipse
+>generic servlet
+>httpServlet
+>RequestDispatcher - forward(), include()
+>welcome-file list
+>parameters - user given
+>Attributes - set by servlet and fench by another servlet
+>Session-tracking - State managment
+    }cookies >key-value format information of old users{space
+    }hiddden Form field >create a form of type hide.
+    }url rewriting>Editing url providing values include spaces.
+    }httpsession
+>Curd-operations.
+
+JSP
+===
+>Jsp is extension of servlet
+>It provides more Functionality than Servlet.
+>.jsp - Supports html+css+javascript+Java with help of tags.
+>JSTL - pre-defined library.
+
+Disadvantages of Servlet
+---------------------------------
+>Static content - html in java - difficult tasks.
+>multiple service methods {diff methods for every request.
+>Small change in servlet need to recompile and deploy.
+
+Important Tags of JSP
+-----------------------------
+.Declaration tag --}<%!________%>
+.Scriplet tag --} <%_________%>
+.Expression tag --} <%=_____%>
+.Directive Tag{ JSP Directive
+>page Directive
+	}<%@page import="java.util.Random" %>
+>Include Directive
+	}<%@include file="<file_name>"%
+>Taglib Directive
+
+
+
+
+
